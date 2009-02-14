@@ -1,0 +1,48 @@
+---
+name: Mungo
+version: 1.0
+author:
+  - 'MacGyveR <macgyver@thedumbterminal.co.uk>'
+abstract: Very simple CGI web framework
+license: perl
+requires:
+  CGI: ""
+  CGI::Thin::Cookies: ""
+  Carp: ""
+  Data::Dumper: ""
+  Digest::MD5: ""
+  File::Basename: ""
+  HTTP::Response: ""
+build_requires:
+  HTTP::Daemon: ""
+  HTTP::Response: ""
+  HTTP::Status: ""
+  Test::More: ""
+generated_by: Module::Build version 0.31012
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2
+provides:
+  Mungo:
+    file: lib/Mungo.pm
+    version: 1.0
+  Mungo::Base:
+    file: lib/Mungo/Base.pm
+  Mungo::Log:
+    file: lib/Mungo/Log.pm
+  Mungo::Request:
+    file: lib/Mungo/Request.pm
+  Mungo::Response:
+    file: lib/Mungo/Response.pm
+  Mungo::Response::Base:
+    file: lib/Mungo/Response/Base.pm
+  Mungo::Response::Raw:
+    file: lib/Mungo/Response/Raw.pm
+  Mungo::Response::SimpleTemplate:
+    file: lib/Mungo/Response/SimpleTemplate.pm
+  Mungo::Session:
+    file: lib/Mungo/Session.pm
+  Mungo::Utils:
+    file: lib/Mungo/Utils.pm
+resources:
+  license: ~
